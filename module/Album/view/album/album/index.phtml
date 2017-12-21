@@ -1,0 +1,34 @@
+<h1>Product list</h1>
+
+<? /*?><table class="table">
+    <tr>
+        <td><?php echo $this->escapeHtml($product->product_name);?></td>
+        <td><?php echo $this->escapeHtml($product->sku);?></td>
+        <td><?php echo $this->escapeHtml($product->stock);?></td>
+        <td><?php echo $this->escapeHtml($product->prouduct_url);?></td>
+        <td><?php echo $this->escapeHtml($product->price);?></td>
+        <td><img width="100" src="<?php echo $this->escapeHtml($product->image);?>" alt=""></td>
+        <td><?php echo $this->escapeHtml($product->image2);?></td>
+        <td><?php echo $this->escapeHtml($product->image3);?></td>
+        <td><?php echo $this->escapeHtml($product->image4);?></td>
+        <td><?php echo $this->escapeHtml($product->image5);?></td>
+        <td><?php echo $this->escapeHtml($product->manufacturer);?></td>
+        <td><?php echo $this->escapeHtml($product->num);?></td>
+    </tr>
+</table><?*/ ?>
+<div class="container">
+    <div class="row">
+        <?php foreach ($products as $product) : ?>
+
+            <div class="col-xs-25">
+                <div class="product_container">
+                    <a href="<?php echo $this->escapeHtml($product->prouduct_url); ?>">
+                        <img width="100" src="<?php echo $this->escapeHtml($product->image); ?>" alt="">
+                        <div class="name"><?php echo $this->escapeHtml($product->product_name); ?></div>
+                        <div class="price"><?php echo $this->escapeHtml($product->price); ?></div>
+                    </a>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</div>

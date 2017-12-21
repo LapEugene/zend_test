@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STORE URL="https://mw-glasberg.com/de/" DATE="21.12.2017" TIME="09:31:09" NAME="MW-Handel Leuchten">
+  <PRODUCTS>
+        <PRODUCT NUM="487">
+      <PRODUCT_NAME><![CDATA[MW-LIGHT Techno 1120206]]></PRODUCT_NAME>
+      <SKU><![CDATA[1120206]]></SKU>
+      <STOCK>IN STOCK</STOCK>
+      <PROUDUCT_URL><![CDATA[https://mw-glasberg.com/de/mw-light-techno-1120206.html?fee=2&fep=487]]></PROUDUCT_URL>
+      <PRICE><![CDATA[90.75]]></PRICE>
+      <IMAGE><![CDATA[https://mw-glasberg.com/media/catalog/product/1/1/1120206.jpg]]></IMAGE>
+      <IMAGE2><![CDATA[https://mw-glasberg.com/media/catalog/product/1/1/1120206_1_1.jpg]]></IMAGE2>
+      <IMAGE3><![CDATA[https://mw-glasberg.com/media/catalog/product/1/1/1120206_2_1.jpg]]></IMAGE3>
+      <IMAGE4><![CDATA[https://mw-glasberg.com/media/catalog/product/1/1/1120206_3.jpg]]></IMAGE4>
+      <IMAGE5><![CDATA[https://mw-glasberg.com/media/catalog/product/1/1/1120206_4.jpg]]></IMAGE5>
+      <MANUFACTURER><![CDATA[MW-LIGHT]]></MANUFACTURER>
+    </PRODUCT>
+    <PRODUCT NUM="488">
+      <PRODUCT_NAME><![CDATA[MW-LIGHT Flora 1340506]]></PRODUCT_NAME>
+      <SKU><![CDATA[1340506]]></SKU>
+      <STOCK>IN STOCK</STOCK>
+      <PROUDUCT_URL><![CDATA[https://mw-glasberg.com/de/mw-light-flora-1340506.html?fee=2&fep=488]]></PROUDUCT_URL>
+      <PRICE><![CDATA[85.04]]></PRICE>
+      <IMAGE><![CDATA[https://mw-glasberg.com/media/catalog/product/1/3/1340506.jpg]]></IMAGE>
+      <IMAGE2><![CDATA[https://mw-glasberg.com/media/catalog/product/1/3/1340506_1_1.jpg]]></IMAGE2>
+      <IMAGE3><![CDATA[https://mw-glasberg.com/media/catalog/product/1/3/1340506_2_1.jpg]]></IMAGE3>
+      <IMAGE4><![CDATA[https://mw-glasberg.com/media/catalog/product/1/3/1340506_3_1.jpg]]></IMAGE4>
+      <IMAGE5><![CDATA[https://mw-glasberg.com/media/catalog/product/1/3/1340506_4.jpg]]></IMAGE5>
+      <MANUFACTURER><![CDATA[MW-LIGHT]]></MANUFACTURER>
+    </PRODUCT>
+  </PRODUCTS>
+</STORE>
