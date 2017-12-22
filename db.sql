@@ -22,7 +22,7 @@
 DROP TABLE IF EXISTS `product`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `product` (
+CREATE TABLE `album` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `PRODUCT_NAME` varchar(100) NOT NULL,
   `SKU` varchar(10) NOT NULL,
