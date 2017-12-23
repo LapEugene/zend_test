@@ -15,7 +15,6 @@ class Album
     public $image4;
     public $image5;
     public $manufacturer;
-    public $num;
 
     public function exchangeArray($data)
     {

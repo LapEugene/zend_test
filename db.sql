@@ -35,7 +35,6 @@ CREATE TABLE `album` (
   `IMAGE4` varchar(100) DEFAULT NULL,
   `IMAGE5` varchar(100) DEFAULT NULL,
   `MANUFACTURER` varchar(10) DEFAULT NULL,
-  `NUM` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;

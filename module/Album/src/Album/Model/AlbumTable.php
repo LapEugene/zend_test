@@ -65,7 +65,6 @@ class AlbumTable
             'IMAGE4' => $album->image4,
             'IMAGE5' => $album->image5,
             'MANUFACTURER' => $album->manufacturer,
-            'NUM' => $album->num,
         );
 
         $id = (int)$album->id;
