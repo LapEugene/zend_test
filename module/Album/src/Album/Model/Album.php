@@ -29,6 +29,5 @@ class Album
         $this->image4 = (!empty($data['IMAGE4'])) ? $data['IMAGE4'] : null;
         $this->image5 = (!empty($data['IMAGE5'])) ? $data['IMAGE5'] : null;
         $this->manufacturer = (!empty($data['MANUFACTURER'])) ? $data['MANUFACTURER'] : null;
-        $this->num = (!empty($data['NUM'])) ? $data['NUM'] : null;
     }
 }

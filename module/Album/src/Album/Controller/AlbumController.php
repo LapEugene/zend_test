@@ -8,8 +8,7 @@ use Album\Model\Album;
 use Zend\Config\Reader;
 use Zend\Console\Request as ConsoleRequest;
 use Zend\Http\Client;
-use Zend\XmlRpc\Client as XmlClient;
-use Zend\XmlRpc\Request as XmlRequest;
+use Zend\View\Model\JsonModel;
 
 class AlbumController extends AbstractActionController
 {
@@ -19,12 +18,8 @@ class AlbumController extends AbstractActionController
 
     public function indexAction()
     {
-
-
-
-
         // grab the paginator from the AlbumTable
-        $paginator = $this->getAlbumTable()->fetchAll(true);
+        /*$paginator = $this->getAlbumTable()->fetchAll(true);
         // set the current page to what has been passed in query string, or to 1 if none set
         $paginator->setCurrentPageNumber((int)$this->params()->fromQuery('page', 1));
         // set the number of items per page to 20
@@ -32,7 +27,22 @@ class AlbumController extends AbstractActionController
 
         return new ViewModel(array(
             'paginator' => $paginator
-        ));
+        ));*/
+        /*$result = new ViewModel(array(
+            'success'=>true,
+            'results' => $this->getAlbumTable()->fetchAll(),
+        ));*/
+        $results = $this->getAlbumTable()->fetchAll();
+        $data = array();
+        foreach ($results as $result) {
+            $data[] = $result;
+        }
+
+        return new JsonModel(array(
+                'data' => $data,
+                'success' => true,
+            )
+        );
     }
 
     public function addAction()
@@ -76,7 +86,6 @@ class AlbumController extends AbstractActionController
 
         /*$reader = new Reader\Xml();
         $newData = $reader->fromFile('instock.xml');*/
-
 
         $client = new Client('https://mw-glasberg.com/media/feed/instock.xml', array(
             'maxredirects' => 0,

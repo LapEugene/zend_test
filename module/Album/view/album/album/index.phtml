@@ -18,6 +18,7 @@
 </table><?*/ ?>
 <div class="container">
     <div class="row">
+        <?/*php foreach ($this->paginator as $product) : ?>
         <?php foreach ($this->paginator as $product) : ?>
 
             <div class="col-xs-25">
@@ -29,21 +30,21 @@
                     </a>
                 </div>
             </div>
-        <?php endforeach; ?>
+        <?php endforeach; */?>
     </div>
 </div>
 <?php
-// add at the end of the file after the table
-echo $this->paginationControl(
-// the paginator object
-    $this->paginator,
-    // the scrolling style
-    'sliding',
-    // the partial to use to render the control
-    'partial/paginator.phtml',
-    // the route to link to when a user clicks a control link
-    array(
-        'route' => 'album'
-    )
-);
-?>
+//// add at the end of the file after the table
+//echo $this->paginationControl(
+//// the paginator object
+//    $this->paginator,
+//    // the scrolling style
+//    'sliding',
+//    // the partial to use to render the control
+//    'partial/paginator.phtml',
+//    // the route to link to when a user clicks a control link
+//    array(
+//        'route' => 'album'
+//    )
+//);
+//?>

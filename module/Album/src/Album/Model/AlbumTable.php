@@ -16,9 +16,9 @@ class AlbumTable
         $this->tableGateway = $tableGateway;
     }
 
-    public function fetchAll($paginated=false)
+    public function fetchAll()
     {
-        if ($paginated) {
+        /*if ($paginated) {
             // create a new Select object for the table album
             $select = new Select('album');
             // create a new result set based on the Album entity
@@ -35,7 +35,7 @@ class AlbumTable
             );
             $paginator = new Paginator($paginatorAdapter);
             return $paginator;
-        }
+        }*/
         $resultSet = $this->tableGateway->select();
         return $resultSet;
     }

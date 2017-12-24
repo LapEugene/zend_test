@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-25" *ngFor="let key of keys">
+            <div class="product_container">
+                <a href="{{products[key].prouduct_url}}">
+                    <img width="100" [src]="products[key].image" alt="">
+                    <div class="name">{{products[key].product_name}}</div>
+                    <div class="price">{{products[key].price}}</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
